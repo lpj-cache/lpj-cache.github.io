@@ -1,0 +1,38 @@
+{
+  "name": "lpj-cache",
+  "version": "0.0.1",
+  "description": "前端cache工具，用于学习开源项目的整个流程",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "webpack",
+    "example": "http-server -p 8880"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpj-cache/lpj-cache.git"
+  },
+  "keywords": [
+    "cache"
+  ],
+  "author": "lpj-cache",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lpj-cache/lpj-cache/issues"
+  },
+  "homepage": "https://github.com/lpj-cache/lpj-cache#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/runtime": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "user": "0.0.0"
+  }
+}
